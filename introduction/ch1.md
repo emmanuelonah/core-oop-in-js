@@ -36,6 +36,9 @@ const getUser = () => {
   };
 };
 
+getUser.anything = 'anything';
+console.log('GBE', getUser.anything); // 'GBE' 'anything'
+
 const user = getUser();
 console.log("User name:", user.name, "\n");
 console.log("User occupation:", user.occupation, "\n");
