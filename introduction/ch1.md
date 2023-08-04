@@ -24,6 +24,15 @@ Both the primitive and reference types in JavaScript are behind the hood reconst
  * Note, if you see an anti-pattern comment on a code, it means its a bad practice
  */
 
+/**
+ * String is an object also
+ */
+const name = 'Emmanuel Onah';
+
+name.random = 'Random';
+
+console.log(name.random); // 'Random'
+
 /***
  * arrow function is an object and we can modularize it to make its content
  * accessible as object property or method
